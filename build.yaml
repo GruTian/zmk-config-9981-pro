@@ -1,2 +1,5 @@
-include:
-  - board: bbp9981
+builds:
+  bbp9981_single:
+    board: bbp9981
+    # 显式定义 qualifiers 为空，防止脚本报错
+    qualifiers: ""
